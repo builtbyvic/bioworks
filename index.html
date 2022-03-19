@@ -4,38 +4,74 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/open-props" />
-  <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" /> -->
   <title>Bioworks</title>
 </head>
 <body>
   <header>
     <div class="navbar">
-      <h1>Bioworks</h1>
+      <h1><a href="index.html">Bioworks</a></h1>
+      <!-- hamburger html -->
       <div class="hamburger">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
       </div>
-      <!-- ham code -->
+      <!-- ham html -->
       <div class="menu-btn">
         <div class="menu-btn-burger"></div>
       </div>
     </div>
     <nav>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our Work</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/pages/work.html">Our Work</a></li>
+        <li><a href="/pages/about.html">About Us</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h2>We ARe Bioworks</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor necessitatibus consequuntur maxime nemo illum sequi reprehenderit inventore laborum, quae delectus quidem! Deserunt, modi dolor officia facere incidunt voluptatibus quia. Illo doloribus velit nihil asperiores, perspiciatis magnam repellat tempora adipisci vero eos, enim at hic quasi, corrupti maxime sit ex maiores.</p>
+    <!-- <section class="welcome-text typewriter-effect">
+      <h1 class="text" id="typewriter-text"></h1>
+      <p>Coding nature and ourselves</p>
+    </section> -->
+    <section class="welcome-section">
+      <h1>BIOWORKS</h1>
+      <div class="video-container">
+        <video autoplay loop muted>
+          <source src="/assets/blue-dna.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+    <section class="main-text">
+      <h2>Biology for life</h2>
+      <p>
+        Cells are the workhorses of nature. They are the oldest life form, conjuring the marvel that is our modern world. We
+        utilize cells to retain the beauty of the world, from cleaner environments to novel disease therapies.
+      </p>
+    </section>
   </main>
-  <footer></footer>
+  <footer class="footer-content">
+    <div class="footer-wrapper">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/pages/work.html">Our Work</a></li>
+        <li><a href="/pages/about.html">About Us</a></li>
+      </ul>
+      <ul>
+        <h2>Bioworks</h2>
+        <li>Address 1</li>
+        <li>Address 2</li>
+        <li>Address 3</li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2021</p>
+    </div>
+  </footer>
   <script src="/js/index.js"></script>
 </body>
 </html>
