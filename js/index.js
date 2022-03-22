@@ -1,10 +1,10 @@
-const hamburger = document.querySelector('.hamburger');
+// const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 const links = document.querySelectorAll('.nav-links li');
 
-hamburger.addEventListener("click",() => {
-  navLinks.classList.toggle("open");
-});
+// hamburger.addEventListener("click",() => {
+//   navLinks.classList.toggle("open");
+// });
 // ham code
 const menuBtn = document.querySelector('.menu-btn'); // selecting the element with class .menu-btn
 let menuOpen = false; // if the menu is open which initially will be false because the user has not clicked yet
@@ -24,7 +24,7 @@ menuBtn.addEventListener('click',() => {
 
 // typewriter effect
 const typeWriter = document.getElementById('typewriter-text');
-const text = 'Lorem ipsum dolor sit amet.';
+const text = 'coding nature and ourselves';
 
 typeWriter.innerHTML = text;
 typeWriter.style.setProperty('--characters', text.length);
